@@ -5,7 +5,7 @@ int main()
 	int arr1[10],arr2[10],arr3[20],i,k,j,n;
 	printf("\nEnter the size of the array-:");
 	scanf("%d",&n);
-	printf("\nEnter the elements of the array-:");
+	printf("\nEnter the elements of the new array-:");
 	for(i=0;i<n;i++)
 	{
 		scanf("%d",&arr1[i]);
