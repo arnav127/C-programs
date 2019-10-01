@@ -16,7 +16,7 @@ int main()
 		printf("%d",arr[j]);
 		printf("\n");
 	}
-	printf("\nEnter 1.Maximum Element \n2.Minimum Element \n3.Sum Of All Elements \n4.Product Of Non-Zero Elements");
+	printf("\nEnter 1.Maximum Element \n2.Minimum Element \n3.Sum Of All Elements \n4.Product Of Non-Zero Elements are");
 	scanf("%d",&ch);
 	if(ch==1)
 	{
