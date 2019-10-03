@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-	int len,i,flag=0;
+	int len,i,count=0;
 	char s[20];
 	printf("\nEnter a string-:");
 	scanf("%s",&s);
@@ -10,9 +10,9 @@ int main()
 	for(i=0;i<len;i++)
 	{
 		if(s[i]==s[len-i-1])
-		++flag;	
+		count++;	
 	}
-	if(flag==len)
+	if(count==len)
 	printf("String is a pallindrome");
 	else printf("String is a not pallindrome");
 	 
